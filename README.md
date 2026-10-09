@@ -73,7 +73,9 @@ The included pilot is preliminary. It demonstrated artifact-mediated reuse in a 
 - `docs/LAB_APPLICATION.md` — research pitch and application positioning
 - `tests/` — deterministic validation tests
 
-## License
+## Copyright and license
 
-Apache-2.0. See `LICENSE`.
+Copyright © 2026 Michael Aguirre.
+
+Licensed under the Apache License, Version 2.0. See `LICENSE` for the license terms and `NOTICE` for project attribution.
 
