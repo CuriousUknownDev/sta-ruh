@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, cite the technical report and archived release."
+title: "STA-RUH: Structural Theory of Agency—Recurrence Under Handoff"
+type: software
+authors:
+  - family-names: Aguirre
+    given-names: Michael
+version: 0.1.0
+date-released: 2026-10-09
+license: Apache-2.0
+abstract: "An executable evaluation framework for distinguishing successful retry, artifact-mediated correction, cross-agent handoff, rule-absent transfer and recurrence."

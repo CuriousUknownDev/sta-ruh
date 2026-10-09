@@ -1,0 +1,30 @@
+{
+  "study_id": "STA-RUH-01-v1",
+  "status": "draft-preregistration",
+  "random_seed": 20261009,
+  "task_families": 40,
+  "surface_variants_per_family": 3,
+  "repetitions_per_cell": 3,
+  "conditions": [
+    "baseline",
+    "immediate_retry",
+    "artifact_retained",
+    "fresh_handoff",
+    "artifact_withdrawn",
+    "corrupted_artifact",
+    "misleading_peers",
+    "delayed_recurrence",
+    "surface_transfer"
+  ],
+  "model_requirements": {
+    "minimum_families": 4,
+    "minimum_open_weight_families": 2,
+    "temperature": 0.2,
+    "max_retries_for_transport_errors": 2
+  },
+  "primary_outcomes": ["IRR", "HRR", "ATR", "RR", "CCCR", "FHR", "ADR", "HDG"],
+  "primary_comparison": "held-out recurrence prediction from STA profile versus endpoint accuracy, model confidence, model size, immediate retry success, retrieval rate, and generic judge score",
+  "exclusion_policy": "Exclude only transport failures and malformed outputs after two parser retries; retain substantive refusals, uncertainty and timeouts as behavioral outcomes.",
+  "blinding": "Model adapters do not receive oracle rules or expected decisions except in designated correction-artifact conditions. Analysis labels remain sealed until traces are immutable."
+}
+
